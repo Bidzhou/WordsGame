@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009D5D8B2BE15AE500CF71EF /* wordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D5D8A2BE15AE500CF71EF /* wordCell.swift */; };
+		00C2FD5B2BDD9589006EF17E /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2FD5A2BDD9589006EF17E /* player.swift */; };
+		00C2FD5E2BDD9703006EF17E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2FD5D2BDD9703006EF17E /* GameViewModel.swift */; };
 		00DCB28D2BD6AE8800AE8132 /* WordsGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DCB28C2BD6AE8800AE8132 /* WordsGameApp.swift */; };
-		00DCB28F2BD6AE8800AE8132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DCB28E2BD6AE8800AE8132 /* ContentView.swift */; };
+		00DCB28F2BD6AE8800AE8132 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DCB28E2BD6AE8800AE8132 /* StartView.swift */; };
 		00DCB2912BD6AE8B00AE8132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DCB2902BD6AE8B00AE8132 /* Assets.xcassets */; };
 		00DCB2942BD6AE8B00AE8132 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DCB2932BD6AE8B00AE8132 /* Preview Assets.xcassets */; };
 		00DCB29E2BD6AE8B00AE8132 /* WordsGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DCB29D2BD6AE8B00AE8132 /* WordsGameTests.swift */; };
 		00DCB2A82BD6AE8B00AE8132 /* WordsGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DCB2A72BD6AE8B00AE8132 /* WordsGameUITests.swift */; };
 		00DCB2AA2BD6AE8B00AE8132 /* WordsGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DCB2A92BD6AE8B00AE8132 /* WordsGameUITestsLaunchTests.swift */; };
+		00E2B9CC2BDD20A60077345E /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2B9CB2BDD20A60077345E /* TitleText.swift */; };
+		00E2B9CE2BDD229E0077345E /* WordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2B9CD2BDD229E0077345E /* WordTextField.swift */; };
+		00E2B9D02BDD30A30077345E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E2B9CF2BDD30A30077345E /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009D5D8A2BE15AE500CF71EF /* wordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordCell.swift; sourceTree = "<group>"; };
+		00C2FD5A2BDD9589006EF17E /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		00C2FD5D2BDD9703006EF17E /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		00DCB2892BD6AE8800AE8132 /* WordsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DCB28C2BD6AE8800AE8132 /* WordsGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGameApp.swift; sourceTree = "<group>"; };
-		00DCB28E2BD6AE8800AE8132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00DCB28E2BD6AE8800AE8132 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		00DCB2902BD6AE8B00AE8132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DCB2932BD6AE8B00AE8132 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00DCB2992BD6AE8B00AE8132 /* WordsGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,9 @@
 		00DCB2A32BD6AE8B00AE8132 /* WordsGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DCB2A72BD6AE8B00AE8132 /* WordsGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGameUITests.swift; sourceTree = "<group>"; };
 		00DCB2A92BD6AE8B00AE8132 /* WordsGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00E2B9CB2BDD20A60077345E /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		00E2B9CD2BDD229E0077345E /* WordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTextField.swift; sourceTree = "<group>"; };
+		00E2B9CF2BDD30A30077345E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00C2FD5C2BDD96CC006EF17E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00C2FD5A2BDD9589006EF17E /* player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00C2FD5F2BDD9D7C006EF17E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00C2FD5D2BDD9703006EF17E /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		00DCB2802BD6AE8800AE8132 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				00DCB28C2BD6AE8800AE8132 /* WordsGameApp.swift */,
-				00DCB28E2BD6AE8800AE8132 /* ContentView.swift */,
+				00C2FD5C2BDD96CC006EF17E /* Model */,
+				00E2B9D12BDD30DA0077345E /* Views */,
+				00C2FD5F2BDD9D7C006EF17E /* ViewModel */,
+				00E2B9CA2BDD20630077345E /* Components */,
 				00DCB2902BD6AE8B00AE8132 /* Assets.xcassets */,
 				00DCB2922BD6AE8B00AE8132 /* Preview Content */,
 			);
@@ -125,6 +156,25 @@
 				00DCB2A92BD6AE8B00AE8132 /* WordsGameUITestsLaunchTests.swift */,
 			);
 			path = WordsGameUITests;
+			sourceTree = "<group>";
+		};
+		00E2B9CA2BDD20630077345E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				00E2B9CB2BDD20A60077345E /* TitleText.swift */,
+				00E2B9CD2BDD229E0077345E /* WordTextField.swift */,
+				009D5D8A2BE15AE500CF71EF /* wordCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		00E2B9D12BDD30DA0077345E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00DCB28E2BD6AE8800AE8132 /* StartView.swift */,
+				00E2B9CF2BDD30A30077345E /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DCB28F2BD6AE8800AE8132 /* ContentView.swift in Sources */,
+				00DCB28F2BD6AE8800AE8132 /* StartView.swift in Sources */,
+				00E2B9CC2BDD20A60077345E /* TitleText.swift in Sources */,
 				00DCB28D2BD6AE8800AE8132 /* WordsGameApp.swift in Sources */,
+				00E2B9CE2BDD229E0077345E /* WordTextField.swift in Sources */,
+				00C2FD5B2BDD9589006EF17E /* player.swift in Sources */,
+				009D5D8B2BE15AE500CF71EF /* wordCell.swift in Sources */,
+				00E2B9D02BDD30A30077345E /* GameView.swift in Sources */,
+				00C2FD5E2BDD9703006EF17E /* GameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,21 +480,25 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WordsGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WordsName;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Frederico-del-Bidzho.WordsGame";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.Bidzhou.WordsGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,21 +512,25 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WordsGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WordsName;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Frederico-del-Bidzho.WordsGame";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.Bidzhou.WordsGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,9 +546,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Frederico-del-Bidzho.WordsGameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordsGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordsGame";
 			};
 			name = Debug;
@@ -501,9 +567,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Frederico-del-Bidzho.WordsGameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordsGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordsGame";
 			};
 			name = Release;
